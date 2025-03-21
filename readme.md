@@ -138,6 +138,15 @@ Boilarplate
     </div>
   </div>
 ```
+```css
+#farming-guide img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+```
+
+
 ### Single modal
 ```html
 <!-- modal0 -->
@@ -173,5 +182,29 @@ Boilarplate
 }
 ```
 
+### Grid with iframe
+```html
+<section class="container mt-5 shadow-lg p-5 rounded-5">
+      <h2 class="mb-5 text-center">Crop Details</h2>
+      <div class="row">
+
+        <div class="col-md-4">
+          <div class="card">
+            <iframe width="100%" height="200px" src="..."
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="card-body">
+              <h5 class="card-title">.../</h5>
+              <p class="card-text">...</p>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+    </section>
+
+```
 
 
