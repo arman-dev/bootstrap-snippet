@@ -92,6 +92,13 @@ Boilarplate
       </button>
     </div>
 ```
+```css
+.carousel img {
+  height: 550px;
+  object-fit: cover;
+}
+```
+
 
 
 ### Grid with cards & Modal
